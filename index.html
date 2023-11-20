@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>KANATOR WALUTOWY</h1>
+      </div>
+      <div class="leftside">
+        <h2>Kantor "San Escobar</h2>
+        <img src="sanEscobar.jfif" width="500px" height="250px" alt="" /> <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+        magnam autem quaerat eius reiciendis aliquam voluptatem atque officia
+        dolore ea. Distinctio rem a unde dolorum vitae cum hic consectetur quia?
+        <img src="flatEarthers.png" width="500px" height="250px" alt="" />
+        <br />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+        reprehenderit voluptatem odio. Soluta, exercitationem nobis ullam magnam
+        at doloremque, iste atque neque corrupti explicabo numquam doloribus
+        omnis aperiam animi debitis.
+      </div>
+      <div class="rightside">
+        <form action="#">
+          <fieldset>
+            <legend>Bilon</legend>
+            <h4>Przelicznik walut</h4>
+            <label for="howmuchcoins" >ilosc: <input type="number" id="howmuchcoins" /></label>
+            <label for="bilonkurs">kurs monety <input type="number" id="bilonkurs" />
+                <p>Wartość Bilonu</p>
+                <p id="display"></p>
+          </fieldset>
+          <fieldset>
+            <legend>Banknoty</legend>
+            <label for="howmanymoney" >ilosc: <input type="number" id="howmanymoney" /></label>
+            <label for="banknotkurs">kurs monety <input type="number" id="banknotkurs" />
+                <p id="display2"></p>
+          </fieldset>
+
+          <button id="btn">wartosc w zl</button>
+          <p id="display3"></p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
